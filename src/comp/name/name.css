@@ -1,0 +1,48 @@
+#text {
+  color: #242424;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #5bd1ff;
+  font-family: "Tilt Neon", sans-serif;
+  letter-spacing: -5px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 5vw;
+  text-shadow: 0px 0px 20px #5bd1ff;
+  animation: colorchange 8s infinite;
+}
+
+@-webkit-keyframes colorchange {
+  0%,
+  95% {
+    -webkit-text-stroke-color: #5bd1ff;
+    text-shadow: 0px 0px 20px #5bd1ff;
+  }
+
+  96% {
+    -webkit-text-stroke-color: #;
+    text-shadow: 0px 0px 0px #5bd1ff;
+  }
+
+  97%,
+  98% {
+    -webkit-text-stroke-color: #5bd1ff;
+    text-shadow: 0px 0px 20px #5bd1ff;
+  }
+
+  100% {
+    -webkit-text-stroke-color: #242424;
+    text-shadow: 0px 0px 0px #5bd1ff;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #text {
+    font-size: 10vw; /* Modifica el tamaño de fuente para pantallas más pequeñas */
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #text {
+    font-size: 12vw; /* Modifica el tamaño de fuente para pantallas aún más pequeñas */
+  }
+}

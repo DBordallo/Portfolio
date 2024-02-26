@@ -1,0 +1,63 @@
+.social-media-list {
+  position: fixed;
+  margin-bottom: 2rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.social-media-list li {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media-list li a {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  margin: 0 20px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: 0.5s;
+}
+
+.social-media-list li a:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  scale: 1.1;
+}
+
+.social-media-list li a .fab {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #262626;
+  transition: 0.5s;
+}
+
+.social-media-list li:nth-child(1) a:hover .fab {
+  color: #171515;
+}
+
+.social-media-list li:nth-child(2) a:hover .fab {
+  color: #0e76a8;
+}
+
+.social-media-list li:nth-child(3) a:hover .fab {
+  color: #dd4b39;
+}

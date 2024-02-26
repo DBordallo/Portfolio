@@ -1,0 +1,51 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  margin: 1rem;
+  margin-bottom: 5rem;
+  align-items: center;
+  color: #fff;
+}
+
+.profileImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 42vw;
+  margin-left: -2rem;
+  margin-bottom: 0.4rem;
+  border-radius: 10px;
+  filter: drop-shadow(10px -10px 12px black);
+}
+
+.about-container h2,
+.about-container h3,
+.about-container p {
+  color: #ddd; /* Texto blanco */
+}
+
+.skillsTitle {
+  margin-top: 5rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.skill-icon {
+  font-size: 4rem;
+  margin: 10px;
+  color: #14dcff59;
+  position: relative;
+}
+
+.skill-icon:hover {
+  color: #14dcff;
+  transform: scale(1.1);
+  filter: drop-shadow(3px -2px 3px black);
+  transition: 0.5s;
+}
