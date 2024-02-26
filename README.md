@@ -1,4 +1,8 @@
 # Portfolio Diego Bordallo
+<p align="center">
+<image src="/src/assets/propfile.jpg" alt="profile img">
+</p>
+
 
 ¡Bienvenido a mi portfolio! Soy un apasionado desarrollador frontend con pasión el diseño. Este proyecto es una representación de mi trabajo, creatividad y habilidades técnicas. Utilicé React para construir este portfolio, combinando funcionalidad y estética para ofrecer una experiencia de usuario excepcional.
 
