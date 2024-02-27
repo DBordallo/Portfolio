@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import "./index.css";
 import NavBar from "./comp/navbar/navbar.jsx";
 import CardComponent from "./comp/card/card.jsx";
