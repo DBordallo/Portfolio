@@ -1,14 +1,22 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
+export default {
+  plugins: [
+    react()
+  ],
+  server: {
+    // Agregar una regla para manejar correctamente los archivos .jsx
+    // con el tipo MIME 'application/javascript'
+    mimeTypes: {
+      'text/jsx': ['js']
+    }
+  },
   resolve: {
     alias: {
-      'react': 'react', 
+      // Opcional: puedes agregar alias para importar archivos jsx sin la extensión .jsx
+      'react': 'react', // Si tienes alguna configuración específica de alias, asegúrate de agregarla aquí también
       'react-dom': 'react-dom'
     },
-    extensions: ['.js', '.jsx'] 
+    extensions: ['.js', '.jsx'] // Añade '.jsx' a las extensiones resueltas
   }
-})
+};
