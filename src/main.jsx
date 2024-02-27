@@ -38,7 +38,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           detailImage={cerberus3D}
           title="Cerberus Guard"
           githubLink="https://github.com/DBordallo/CerberusGuard"
-          otherLink="https://cerberus-guard-o490nbdk5-dbordallos-projects.vercel.app/"
+          otherLink="https://cerberus-guard.vercel.app/"
         />
 
         <CardComponent
