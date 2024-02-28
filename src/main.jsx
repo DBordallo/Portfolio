@@ -20,11 +20,12 @@ import acercatech3D from "./assets/acercatech3D.png";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Container id="portfolio">
-      <NavBar />
+      <NavBar id='navbar' />
       <div id="name">
         <img className="profileImg" src={Profile} alt="profile" />
         <Name />
       </div>
+      <div id="preabout"></div>
       <div id="about">
         <AboutMe />
       </div>
