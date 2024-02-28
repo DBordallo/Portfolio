@@ -44,7 +44,7 @@ function NavBar() {
               id="basic-nav-dropdown"
             >
               <NavDropdown.Item
-                href="https://www.linkedin.com/in/diego-bordallo-3a5b81290/"
+                href="https://www.linkedin.com/in/diego-bordallo/"
                 target="_blank"
               >
                 Linkedin
