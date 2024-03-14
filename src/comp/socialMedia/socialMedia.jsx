@@ -13,7 +13,7 @@ const Social = () => {
       </li>
       <li>
         <a
-          href="https://www.linkedin.com/in/diego-bordallo-3a5b81290/"
+          href="https://www.linkedin.com/in/diego-bordallo/"
           target="_blank"
         >
           <FaLinkedin className="fab" />

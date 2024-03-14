@@ -25,7 +25,7 @@ const Name = () => {
       <h1 id="text">
         Diego Bordallo <br />
         <br />
-        Frontent Developer
+        Frontend Developer
       </h1>
     </div>
   );

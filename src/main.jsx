@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import "./index.css";
 import NavBar from "./comp/navbar/navbar.jsx";
 import CardComponent from "./comp/card/card.jsx";
@@ -20,11 +20,12 @@ import acercatech3D from "./assets/acercatech3D.png";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Container id="portfolio">
-      <NavBar />
+      <NavBar id='navbar' />
       <div id="name">
         <img className="profileImg" src={Profile} alt="profile" />
         <Name />
       </div>
+      <div id="preabout"></div>
       <div id="about">
         <AboutMe />
       </div>
@@ -38,7 +39,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           detailImage={cerberus3D}
           title="Cerberus Guard"
           githubLink="https://github.com/DBordallo/CerberusGuard"
-          otherLink="https://cerberus-guard-o490nbdk5-dbordallos-projects.vercel.app/"
+          otherLink="https://cerberus-guard.vercel.app/"
         />
 
         <CardComponent

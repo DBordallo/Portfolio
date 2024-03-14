@@ -1,7 +1,7 @@
 .navbar{
   position: sticky;
   width: 100vw;
-    padding-top: 2rem;
+  height: 6rem;
     color: #fff;
     background-color:#242424;
     opacity: 0.85;
@@ -25,7 +25,7 @@
 
 
 .favicon{
-  width: 5rem;
+  width: 4.5rem;
 }
 
 .navbar-toggler{

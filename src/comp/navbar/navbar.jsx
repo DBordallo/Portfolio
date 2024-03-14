@@ -26,13 +26,16 @@ function NavBar() {
     <Navbar fixed="top" expand="lg" className="navbar">
       <Container className="navSection">
         <Navbar.Brand className="navName" href="#home">
-          {" "}
-          <img src={favicon} className="favicon" alt="favicon" />{" "}
+          
+          <Nav.Link className="navIcon" href="#portfolio">
+          {" "}<img src={favicon} className="favicon" alt="favicon" />{" "}
+            </Nav.Link>
+         
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="navIcon" href="#text">
+            <Nav.Link className="navIcon" href="#preabout">
               SOBRE MÍ
             </Nav.Link>
             <Nav.Link className="navIcon" href="#card">
@@ -44,7 +47,7 @@ function NavBar() {
               id="basic-nav-dropdown"
             >
               <NavDropdown.Item
-                href="https://www.linkedin.com/in/diego-bordallo-3a5b81290/"
+                href="https://www.linkedin.com/in/diego-bordallo/"
                 target="_blank"
               >
                 Linkedin
